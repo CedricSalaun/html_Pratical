@@ -9,3 +9,5 @@ Project static made with
 [JS](https://www.javascript.com/learn/javascript/strings) Es5,
 
 [BOOTSTRAP](http://getbootstrap.com/docs/4.0/getting-started/introduction/) version 4.
+
+![alt text](img/capture.png)
