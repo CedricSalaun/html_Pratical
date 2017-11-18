@@ -90,15 +90,13 @@ body{
     margin-top : 20px;
 }
 #main .triangle{
-    background-repeat   : no-repeat;
-    background-position : left;
-    background-color    : #FFFFFF;
-    text-align          : center;
-    height              : 60px;
-    width               : 100%;
-    font-size           : 15px;
-    margin              : 0;
-    position            : relative;
+    background : #FFFFFF no-repeat left;
+    text-align : center;
+    height     : 60px;
+    width      : 100%;
+    font-size  : 15px;
+    margin     : 0;
+    position   : relative;
 }
 #main .triangle span{
     position  : absolute;
@@ -206,10 +204,10 @@ body{
     width  : 110px;
 }
 #arrow{
-    height        : 0px;
-    width         : 0px;
+    height        : 0;
+    width         : 0;
     border-right  : 50px solid #ff5c01;
-    border-bottom : 0px solid transparent;
+    border-bottom : 0 solid transparent;
     border-top    : 50px solid transparent;
 }
 #valise_orange{
@@ -311,7 +309,6 @@ footer{
         position      : static;
         top           : 0;
         transform     : none;
-        right         : none;
         margin-top    : 30px;
         width         : 100%;
         margin-bottom : 10px;
